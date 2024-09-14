@@ -1,5 +1,5 @@
 {
-    "name": "william/encrypt-model",
+    "name": "williamrox45/encrypt-model",
     "description": "The idea of this package is very simple; it is to add encryption to the model class attributes in an automated way.",
     "type": "library",
     "require": {
