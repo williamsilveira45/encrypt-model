@@ -3,7 +3,7 @@
     "description": "The idea of this package is very simple; it is to add encryption to the model class attributes in an automated way.",
     "type": "library",
     "require": {
-        "laravel/framework": "^11.23"
+        "laravel/framework": "^9.00|^10.00|^11.00"
     },
     "license": "MIT",
     "autoload": {
