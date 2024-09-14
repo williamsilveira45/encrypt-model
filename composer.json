@@ -1,0 +1,21 @@
+{
+    "name": "william/encrypt-model",
+    "description": "The idea of this package is very simple; it is to add encryption to the model class attributes in an automated way.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^11.23"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "William\\EncryptModel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Silveira",
+            "email": "williamlimadasilveira@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
