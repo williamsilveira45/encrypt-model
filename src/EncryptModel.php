@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits;
+namespace William\EncryptModel;
 
 use Illuminate\Support\Facades\Crypt;
 
