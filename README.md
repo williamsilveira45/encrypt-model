@@ -2,7 +2,7 @@
 Simple trait to add in your models if you want to save it encrypted in the database, e.g: Store credit cards or any sensible data.
 
 ## Requirements
-Laravel 8+
+Laravel 9+
 
 ## Installation
 ```composer require williamrox45/encrypt-model``` 
@@ -42,7 +42,7 @@ dump($user);
  * name = eyJpdiI6ImxyeVRBMGZrdGV2TDE1N1BkdzhRbFE9PSIsInZhbHVlIjoiUEd0QjlNbzNLMDBidXYySUtnRHB4dz09IiwibWFjIjoiMWY2ZDhjZjVhMmY5Mzk1ZGJlZDlhZWEyODk1ODg4NzIzOTdlZWE5MGY3ODhjNmM1ZDUzOGY2MzM5ZjEzOWI3YSIsInRhZyI6IiJ9
  * email = eyJpdiI6InhqamlKQVIxalFEdFNuRDZqNnZZTHc9PSIsInZhbHVlIjoicmgrMktBcDJwUllvZzFEZ3h6VDd3dlhKZXBPSWNuMi9TcHYrYnBZb2wrVT0iLCJtYWMiOiI2MGM0YmI5Mzc1ZjkxZjFkY2VkNDE3MzIwZDRjYjQ5ODc4ZDc1N2JjYTU2MmExNGNkYTlmZjk3NTU4ODM1Y2M5IiwidGFnIjoiIn0
  */
-dd($user->name, $email);
+dd($user->name, $user->email);
 /**
  * name = William
  * email = will123@will123.com
